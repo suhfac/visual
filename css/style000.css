@@ -1,0 +1,124 @@
+/*리셋 reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{text-decoration: none; color: inherit;}
+
+/* header */
+/* 네비게이션 메뉴  */
+
+header{position: fixed; width: 100%; height: 70px; background-color:rgba(0,0,0,0.7) ; }
+.top{width: 1366px; height: 70px; margin: 0 auto;}
+.logo{float: left;width: 66px;}
+.logo img{width: 100%;}
+
+.menu{ float: left; margin-left: 280px;}
+.menu>ul>li{ float: left; margin: 0 24px; color: #f2f2f2; text-align: center;
+line-height: 70px;}
+
+
+
+
+
+
+/* 메인배너 */
+#mainbanner{width: 100%; height: 600px;background-color: lightslategray;
+            overflow: hidden;}
+#mainbanner img{width: 100%;}
+
+
+
+
+
+
+
+/* section1 */
+#section1 {padding-top: 70px; width: 100%; height: 500px;}
+
+.item-title{width: 600px;margin: 0 auto; text-align: center; font-size: 36px; font-weight: 600; color: rgb(247, 40, 12);}
+.item-title-underbar{width: 70px; height: 3px;margin: 20px auto 58px auto; color: rgb(100, 17, 17);}
+
+.item-set{margin: 0 auto; width: 1140px; height: 500px;}
+.item1{float: left;margin: 0 19px; width: 342px; height: 500px;}
+.item1-title{width: 342px;text-align: center; font-size: 28px; font-weight: 600; color: rgb(0, 0, 0);}
+.item1-pics{margin-top: 30px; width: 342px;height: 180px; overflow: hidden; }
+.item1-pics img{width: 100%; }
+.item1-txt{margin-top: 30px;width: 342px;text-align: center; }
+
+
+
+/* section2 */
+#section2 { width: 100%; height: 500px;overflow: hidden;}
+.s2-left{float: left;width: 50%; height: 500px;overflow: hidden;}
+.s2-left img{width: 150%;}
+.s2-right{float: right;width: 50%; height: 500px;background-color: #ccc;}
+
+
+/* section3 */
+#section3 {padding-top: 70px; width: 100%; height: 1000px; background-color: rgb(222, 176, 199);}
+
+
+
+
+/* section4 */
+#section4 {padding-top: 70px; width: 100%; height: 250px; background-color: rgb(233, 160, 160);}
+
+/* section5 */
+#section5 {padding-top: 70px; width: 100%; height: 500px; background-color: rgb(176, 222, 195);}
+
+/* section6 */
+#section6 {padding-top: 70px; width: 100%; height: 1000px; background-color: rgb(227, 196, 130);}
+
+/* footer */
+
+footer{width: 100%; height: 200px; background-color: rgb(94, 88, 76);}
+
+
+

@@ -1,0 +1,181 @@
+/* 리셋 reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    outline: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{ text-decoration: none; color: inherit; outline: none;}
+
+
+
+/* 서체  */
+
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/* 서체 끗!!!!!!~~~~~~ */
+
+
+
+/* header */
+/* 네비게이션 메뉴  */
+
+header{ position: fixed; width: 100%; height: 70px; background-color:  rgba(0,0,0,0.7)}
+.top{ width: 1366px; height: 70px; margin: 0 auto; }
+.logo{  float: left; width: 66px; }
+.logo img { width: 100%;}
+
+.menu{ float: left ; margin-left: 270px}
+.menu>ul>li { float:left; margin: 0 24px; color: #f2f2f2; text-align: center;
+line-height: 70px;}
+
+/* 메인배너 */
+#mainbanner{ width: 100%; height: 640px; 
+            background-color: lightslategrey;
+            overflow: hidden;}
+#mainbanner img{ width: 100%;}      
+
+
+
+
+
+
+
+
+
+/* section 1  Visual Thinking */
+
+#section1 { padding-top: 70px; width: 100%; height: 500px;}
+
+.item-title{  font-family: 'Comfortaa', cursive; width: 400px; margin: 0 auto; text-align: center; font-size: 36px; font-weight: 600; color: #555;}
+.item-title-underbar{ width: 70px; height: 3px; margin: 22px auto 66px auto;  background-color: rgb(209, 0, 0);}
+
+.item1-set{ margin: 0 auto; width: 1140px; height: 500px; }
+.item1{ float: left; margin: 0 19px; width: 342px; height: 500px; }
+.item1-title{   font-family: 'Comfortaa', cursive; width: 342px; text-align: center; font-size: 21px; font-weight: 600; color: #555;}
+.item1-pics{ margin-top: 20px; width: 342px; height: 180px; overflow: hidden;}
+.item1-pics img{ width: 100%;}
+.item1-txt{ margin-top: 20px;  width: 342px; text-align: center;  }
+
+
+
+
+/* section 2 Our Story */
+#section2 {  width: 100%; height: 700px;  overflow: hidden; }
+.s2-left{ float: left; width: 50%;  height: 700px;  overflow: hidden; }
+.s2-left img{ width: 150%;}
+.s2-right{ float: right; width: 40%; height: 500px; background-color: #ddd; 
+			padding: 100px 5% ;}
+.item-title2{  font-family: 'Comfortaa', cursive; width: 400px; font-size: 36px; font-weight: 600; color: #555;}
+.item-title-underbar2{ width: 70px; height: 3px; margin: 22px 0 66px 0;  background-color: rgb(209, 0, 0);}
+.item2-txt{ margin-top: 20px;  width: 70%; }
+
+
+/* section 3  MenU Lecture */
+
+#section3 { padding-top: 120px; width: 100%; height: 1400px;}
+.item3-set{ width: 1102px; height: 1200px; margin: 0 auto; }
+.item3-set-up{ width: 1102px; height: 600px; }
+.item3-set-down{width: 1102px; height: 600px;}
+
+.item3{width: 511px; height: 580px; float: left; 
+		padding: 10px 20px;}
+.item3-title{  font-family: 'Comfortaa', cursive; width: 500px; margin: 0 auto; text-align: center; font-size: 24px; font-weight: 600; color: #555;}
+.item3-title-underbar{ width: 70px; height: 3px; margin: 14px auto 30px auto;  background-color: rgb(209, 0, 0);}
+
+.item3-list{ width: 94%; background-color: lightgreen;}
+.item3-txt{ float: left; width: 85%;}
+.item3-price{ float: left; width: 15%; text-align: right;}
+.item3-list h3{ color: #555;  font-size: 17px; font-weight: 600;  font-family: 'Comfortaa', }
+.item3-list p{ font-size: 15px; color: #555; margin: 15px 0 40px 0; line-height: 20px; }
+.item3-list p .time-fx { color: #e19; font-weight: 600; font-size: 12px; }
+
+
+
+/* section 4 */
+ 
+#section4 { padding-top: 70px; width: 100%; height: 250px; background-color: rgb(96, 232, 22);}
+
+
+
+
+
+
+/* section 5 */
+#section5 { padding-top: 70px; width: 100%; height: 500px; background-color: rgb(8, 71, 243);}
+
+
+
+
+/* section 6 */
+ 
+#section6 { padding-top: 70px; width: 100%; height: 1000px; background-color: rgb(97, 1, 94);}
+
+
+
+
+
+
+
+/* footer */
+
+footer{ width: 100%; height:200px; background-color: rgb(68, 68, 68);}
+
+
+
+
+
+
+
+
+
+
